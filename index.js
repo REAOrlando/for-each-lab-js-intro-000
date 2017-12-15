@@ -8,6 +8,5 @@ function iterativeLog(array) {
 function iterate(callback) {
     var initArray = ["Tuula","Steph","Me"];
     initArray.forEach(callback)
-    debugger;
     return initArray;
 }
