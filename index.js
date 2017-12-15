@@ -4,3 +4,8 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`);
   });
 }
+
+function iterate(callback) {
+  initArray = ["Tuula","Steph","Me"];
+  initArray.forEach(callback)
+}
